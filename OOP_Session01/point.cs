@@ -10,8 +10,8 @@ namespace OOP_Session01
 
     {
 
-        public int X;
-        public int Y; 
+        //public int X;
+        //public int Y; 
 
 
         //Constructor : Special Method 
@@ -30,12 +30,12 @@ namespace OOP_Session01
         // Initialized BY Default Value 
 
 
-        public Point (int x , int y)
-        {
-            X = x;
-            Y = y;
+        //public Point (int x , int y)
+        //{
+        //    X = x;
+        //    Y = y;
 
-        }
+        //}
 
 
     }

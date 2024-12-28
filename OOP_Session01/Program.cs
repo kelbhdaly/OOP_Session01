@@ -10,6 +10,8 @@
     {
         static void Main(string[] args)
         {
+            #region STRUCK
+
             //Struct : Value Data Type  : STACK
 
             //Point 
@@ -36,9 +38,30 @@
             //Console.WriteLine(P01.Y); // 10
 
 
-            Point P01 = new Point(10,30);
-            Console.WriteLine(P01.X);
-            Console.WriteLine(P01.Y);
+            //Point P01 = new Point(10,30);
+            //Console.WriteLine(P01.X);
+            //Console.WriteLine(P01.Y); 
+            #endregion
+
+
+            #region OOP
+            //OOP : Object Oriented Programming 
+            // Programming Paradigm
+            // OOP : The Paradigm Use For Build Any Business 
+
+
+            // Class : Blueprint Of The Object
+            // Object : Specific Instance From Class 
+
+
+            // 4 Pillars
+            //=========== 
+            // 1. Encapsulation 
+            // 2. Inheritance 
+            // 3. Ploymorphism 
+            // 4. Abstraction 
+            #endregion
+
         }
     }
 }
