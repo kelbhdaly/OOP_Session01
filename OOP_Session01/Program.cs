@@ -6,6 +6,11 @@
     //2. Enum 
     //3. Interface
     //4. Struct
+
+
+
+
+    
     internal class Program
     {
         static void Main(string[] args)
@@ -61,6 +66,41 @@
             // 3. Ploymorphism 
             // 4. Abstraction 
             #endregion
+
+
+
+            //Encapsulation :
+            // Class Or Struct 
+            // Seperate The Data (Attribute) Definition From Its Use 
+
+
+            //Apply Encapsultion 
+            //1. All Data (Attribute ) Private
+            //2. Access Data Through 
+            //2.1 Setter Getter Method 
+            //2.2 Properties 
+            Employee Emp = new Employee(15, "khaled", 155000);
+            Console.WriteLine(Emp.ToString());
+            //Emp.SetSalary(15555);
+            //Emp.SetName("khaled");
+            //Emp.SetId(1);
+            //Console.WriteLine(Emp.GetId());
+            //Console.WriteLine(Emp.GetSalary());
+            //Console.WriteLine(Emp.GetName());
+            //Emp.id = 1;
+            //Emp.name = "Test";
+            //Emp.salary = 15000;
+            //Console.WriteLine(Emp.id);
+            //Console.WriteLine(Emp.salary);
+            //Console.WriteLine(Emp.name);
+            // End user Access Data Itself
+            // No Data Viladation
+            // No Read Only Filed
+
+
+
+
+
 
         }
     }
