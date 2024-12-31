@@ -68,7 +68,9 @@
             #endregion
 
 
+            #region Encapsulation
 
+            #region Encapsulation DEF
             //Encapsulation :
             // Class Or Struct 
             // Seperate The Data (Attribute) Definition From Its Use 
@@ -78,9 +80,15 @@
             //1. All Data (Attribute ) Private
             //2. Access Data Through 
             //2.1 Setter Getter Method 
-            //2.2 Properties 
-            Employee Emp = new Employee(15, "khaled", 155000);
-            Console.WriteLine(Emp.ToString());
+            //2.2 Properties  
+            #endregion
+
+
+            #region Apply Encapsultion User Setter Getter Method 
+
+            //Employee Emp = new Employee(15, "khaled", 155000);
+            //Console.WriteLine(Emp.ToString());
+
             //Emp.SetSalary(15555);
             //Emp.SetName("khaled");
             //Emp.SetId(1);
@@ -95,9 +103,24 @@
             //Console.WriteLine(Emp.name);
             // End user Access Data Itself
             // No Data Viladation
-            // No Read Only Filed
+            // No Read Only Filed 
+            #endregion
 
 
+            #region Encapsulation Properties
+
+
+            Employee Emp01 =new Employee();
+            Emp01.Id = 5;
+            Emp01.Name = "khaled";
+            Emp01.Salary = 200000000;
+
+
+
+
+            #endregion
+
+            #endregion
 
 
 
