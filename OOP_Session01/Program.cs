@@ -134,12 +134,25 @@
 
 
 
-            phonebook b01= new phonebook(3);
-            b01.AddPerson(0, "khaled", 1111);
-            b01.AddPerson(1, "ali", 2222);
-            b01.AddPerson(2, "ahmed", 3333);
+            //phonebook b01= new phonebook(3);
+            //b01.AddPerson(0, "khaled", 1111);
+            //b01.AddPerson(1, "ali", 2222);
+            //b01.AddPerson(2, "ahmed", 3333);
 
-            Console.WriteLine(b01.GetNumber("k")); 
+            //Console.WriteLine(b01.GetNumber("k")); 
+
+            car c01;
+            //declare for refernce(pointer) from type 'car' 
+            //c01 : can refer to object from type car or any class inhertant
+            // c01 : refer null
+
+            // 8 byte stack
+            // 0 byte heap
+            c01 = new car(1 , "khaled" , 150000);
+            // allocate a number of required 18 byte 
+            // initailized by defult value
+            // call user-defined constructor if exists
+            // assign object to reference
 
         }
     }
