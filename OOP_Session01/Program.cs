@@ -101,29 +101,45 @@
             //Console.WriteLine(Emp.id);
             //Console.WriteLine(Emp.salary);
             //Console.WriteLine(Emp.name);
+
+
             // End user Access Data Itself
             // No Data Viladation
             // No Read Only Filed 
+
+
+            depart dep = new depart();
+            //dep.Address = "aaaaaaaaaaaaa";
+            //dep.Id = 5;
+            //dep.Name = "khaled";
             #endregion
 
 
             #region Encapsulation Properties
 
 
-            Employee Emp01 =new Employee();
-            Emp01.Id = 5;
-            Emp01.Name = "khaled";
-            Emp01.Salary = 200000000;
+            //Employee Emp01 =new Employee();
+            //Emp01.Id = 5;
+            //Emp01.Name = "khaled";
+            //Emp01.Salary = 200000000;
 
 
 
 
             #endregion
 
+
+
             #endregion
 
 
 
+            phonebook b01= new phonebook(3);
+            b01.AddPerson(0, "khaled", 1111);
+            b01.AddPerson(1, "ali", 2222);
+            b01.AddPerson(2, "ahmed", 3333);
+
+            Console.WriteLine(b01.GetNumber("k")); 
 
         }
     }
