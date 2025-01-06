@@ -50,6 +50,71 @@ namespace OOP_Ass_1
     //    }
     //}
     #endregion
+
+    #region MyRegion
+    //internal struct Person
+    //{
+    //    string name;
+    //    int age;
+
+    //    public string Name { get => name; set => name = value; }
+    //    public int Age { get => age; set => age = value >= 18 && value <= 60 ? value : 18; }
+
+    //    public override string ToString()
+    //    {
+    //        return $" Name = {name} , Age = {age}";
+    //    }
+
+    //    static public Person[] AddPerson(int size)
+    //    {
+    //        Person[] persons = new Person[size];
+    //        for (int i = 0; i < size; i++)
+    //        {
+    //            persons[i] = new Person();
+    //        }
+
+    //        return persons;
+    //    }
+
+    //    public static void InsertData(Person[] person)
+
+    //    {
+    //        bool flag;
+    //        for (int i = 0; i < person.Length; i++)
+    //        {
+    //            do
+    //            {
+    //                Console.WriteLine($"Enter the Age Of Person {i + 1}");
+    //                flag = int.TryParse(Console.ReadLine(), out person[i].age);
+    //            } while (!flag);
+
+    //            do
+    //            {
+    //                Console.WriteLine($"Enter the Person Name : {i + 1}");
+    //                person[i].name = Console.ReadLine();
+    //            } while (string.IsNullOrWhiteSpace(person[i].Name));
+
+    //        }
+    //    }
+
+
+    //    public static Person PrintOldest(Person[] person)
+    //    {
+    //        Person oldest = person[0];
+    //        for (int i = 0; i < person.Length; i++)
+    //        {
+    //            if (person[i].age > oldest.age)
+    //            {
+    //                oldest.Age = person[i].age;
+    //                oldest.Name = person[i].name;
+    //            }
+    //        }
+    //        return oldest;
+    //    }
+    //}
+    #endregion
+
+
     internal class Program
     {
         static void Main(string[] args)
@@ -64,6 +129,21 @@ namespace OOP_Ass_1
             //Point p02 = Point.CreatePoint();
             //Console.WriteLine("The Distance Between = "+Point.CalcDistance(p01 , p02));
 
+            #endregion
+
+
+            #region Q02
+            //.Create a struct called "Person" with properties "Name" and "Age". 
+            //Write a C# program that takes details of 3 persons as input 
+            //from the user and displays the name and age of the oldest person.
+
+
+            //----****----
+
+
+            //Person[] person = Person.AddPerson(3);
+            //Person.InsertData(person);
+            //Console.WriteLine(Person.PrintOldest(person));
             #endregion
         }
     }
